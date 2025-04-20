@@ -87,7 +87,7 @@ bool isValid(string input) {
 
 int main() {
   string input;
-  cout << "Input a string. You can include '()' and '[]': ";
+  cout << "Input a string. You can include letters, spaces, '()', and '[]': ";
   getline(cin, input);
 
   isValid(input) ? cout << "String is ACCEPTED" << endl : cout << "String is DENIED" << endl;
